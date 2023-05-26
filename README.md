@@ -1,7 +1,9 @@
 # Welcome!
 
-Here is results of DQE Mentoring program final task.
-Gol is to implement following checks in accordance with requirements to data:
+Here is the results of DQE Mentoring program final task.
+
+The goal is to implement following checks in accordance with requirements to data:
+
 Flights: Completeness by empty/non empty fields
 Flights: Validity by Time Range for DepTime and CRSDepTime
 Airports: Uniqueness by PK
@@ -17,19 +19,19 @@ It containts:
 	check_consistency()			- used to verify consistency of Unique Carrier
 	check_pk_completeness()		- not required check, which could be used to verify if all PK from src table exist in tgt table
 
-Cells with code of required functions includes example of execution. This examples are done for data requested in task.
+- Cells with code of required functions includes example of execution. These examples are done for data requested in task.
 Last cell is execution of all these functions for all tables in accordance with requirements.
 
 Check_list.xlsx - file with checklist (required checks are highlighted in bold)
 
-total_result_<date>.xlsx - file with results of execution
+total_result_<date>.xlsx - file with rhe results of execution
 
 script_to_execute_notebook.txt - script to be executed in command prompt to run the notebook. 
 Note: in order to execute script on local machine in the same folder with script there should be data for analyses.
-Hierarchy of folders should be the following (the same as in bucket):
-Data
-	source
-	raw
-		airports
-		carriers
-		flights
+Hierarchy of folders with data should be the following (the same as in bucket):
+Data:
+--source (csv files)
+--raw:
+----airports (parquet files)
+----carriers (parquet files)
+----flights (parquet files)
