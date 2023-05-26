@@ -4,10 +4,10 @@ Here is the results of DQE Mentoring program final task.
 
 The goal is to implement following checks in accordance with requirements to data:
 
-Flights: Completeness by empty/non empty fields
-Flights: Validity by Time Range for DepTime and CRSDepTime
-Airports: Uniqueness by PK
-FLights: Consistency check for Unique Carrier
+Flights: Completeness by empty/non empty fields;
+Flights: Validity by Time Range for DepTime and CRSDepTime;
+Airports: Uniqueness by PK;
+FLights: Consistency check for Unique Carrier.
 
 final_task.ipynb - jupyter notebook file with results. 
 It containts:
